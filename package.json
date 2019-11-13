@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors",
-    "start": "node server"
+    "start": "node server",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +24,7 @@
     "express": "^4.16.2",
     "express-cache-controller": "^1.1.0",
     "font-awesome": "^4.7.0",
-    "grpc": "^1.8.0",
+    "grpc": "^1.10.1",
     "js-cookie": "^2.2.0",
     "lightning-client": "^0.5.2-beta.7",
     "mobx": "^3.4.1",
@@ -31,14 +33,15 @@
     "normalize.css": "^7.0.0",
     "react": "^16.2.0",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-fontawesome": "^1.6.1",
     "threads": "^0.10.1",
     "typeface-roboto": "0.0.50",
     "url-loader": "^0.6.2",
     "vis": "^4.21.0",
     "vis-react": "^0.3.0",
-    "vivagraphjs": "^0.10.0"
+    "vivagraphjs": "^0.10.0",
+    "snyk": "^1.245.0"
   },
   "devDependencies": {
     "axios": "^0.17.1",
@@ -60,5 +63,6 @@
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.4",
     "webpack-hot-middleware": "^2.21.0"
-  }
+  },
+  "snyk": true
 }
