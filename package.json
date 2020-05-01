@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors",
-    "start": "node server"
+    "start": "node server",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -38,7 +40,8 @@
     "url-loader": "^0.6.2",
     "vis": "^4.21.0",
     "vis-react": "^0.3.0",
-    "vivagraphjs": "^0.10.0"
+    "vivagraphjs": "^0.10.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "axios": "^0.17.1",
@@ -60,5 +63,6 @@
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.4",
     "webpack-hot-middleware": "^2.21.0"
-  }
+  },
+  "snyk": true
 }
