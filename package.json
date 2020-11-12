@@ -22,7 +22,7 @@
     "express": "^4.16.2",
     "express-cache-controller": "^1.1.0",
     "font-awesome": "^4.7.0",
-    "grpc": "^1.8.0",
+    "grpc": "^1.24.4",
     "js-cookie": "^2.2.0",
     "lightning-client": "^0.5.2-beta.7",
     "mobx": "^3.4.1",
