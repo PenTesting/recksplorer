@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - grpc > node-pre-gyp > request > extend:
+        patched: '2022-09-29T15:19:36.745Z'
+  SNYK-JS-LODASH-567746:
+    - grpc > lodash:
+        patched: '2022-09-29T15:19:36.745Z'
+    - lightning-client > lodash:
+        patched: '2022-09-29T15:19:36.745Z'
+    - vis-react > lodash:
+        patched: '2022-09-29T15:19:36.745Z'
+  'npm:stringstream:20180511':
+    - grpc > node-pre-gyp > request > stringstream:
+        patched: '2022-09-29T15:19:36.745Z'
