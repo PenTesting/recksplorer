@@ -22,7 +22,7 @@
     "express": "^4.16.2",
     "express-cache-controller": "^1.1.0",
     "font-awesome": "^4.7.0",
-    "grpc": "^1.8.0",
+    "grpc": "^1.24.8",
     "js-cookie": "^2.2.0",
     "lightning-client": "^0.5.2-beta.7",
     "mobx": "^3.4.1",
@@ -37,7 +37,7 @@
     "typeface-roboto": "0.0.50",
     "url-loader": "^0.6.2",
     "vis": "^4.21.0",
-    "vis-react": "^0.3.0",
+    "vis-react": "^0.4.9",
     "vivagraphjs": "^0.10.0"
   },
   "devDependencies": {
