@@ -31,7 +31,7 @@
     "normalize.css": "^7.0.0",
     "react": "^16.2.0",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-fontawesome": "^1.6.1",
     "threads": "^0.10.1",
     "typeface-roboto": "0.0.50",
