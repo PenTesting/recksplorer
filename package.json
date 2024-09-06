@@ -17,7 +17,7 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "command-line-args": "^5.0.1",
-    "command-line-usage": "^4.1.0",
+    "command-line-usage": "^6.0.0",
     "escape-html": "^1.0.3",
     "express": "^4.16.2",
     "express-cache-controller": "^1.1.0",
@@ -29,15 +29,15 @@
     "mobx-react": "^4.3.5",
     "moment": "^2.20.1",
     "normalize.css": "^7.0.0",
-    "react": "^16.2.0",
-    "react-copy-to-clipboard": "^5.0.1",
+    "react": "^16.5.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^16.2.0",
     "react-fontawesome": "^1.6.1",
     "threads": "^0.10.1",
     "typeface-roboto": "0.0.50",
     "url-loader": "^0.6.2",
     "vis": "^4.21.0",
-    "vis-react": "^0.3.0",
+    "vis-react": "^0.4.9",
     "vivagraphjs": "^0.10.0"
   },
   "devDependencies": {
